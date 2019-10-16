@@ -1,0 +1,30 @@
+spring:
+# mongodb
+  data:
+    mongodb:
+      # lh-prod
+      host: 118.31.56.62
+      port: 27017
+      database: farm
+      username: farm
+      password:
+      # hryl-test
+#      host: 121.40.167.195
+#      port: 27018
+#      database: hr-internal
+#      username: hr-internal
+#      password: hr-internal
+
+# mysql
+  datasource:
+    # lh-prod
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password:
+    url: jdbc:mysql://120.27.231.16:3306/pilot_db?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Hongkong
+    # sql server
+#    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+#    username: sa
+#    password: syf930628
+#    # 动态端口
+#    url: jdbc:sqlserver://localhost:60262;DatabaseName=HRMS_YLYTN
